@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+
+body{
+   background-color: rgb(181, 216, 216);
+   height: 5300px;
+   
+}
+.heroImg{
+    background-image: url(hero-img8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.tema{
+   background-color: bg-pink-600;
+   
+}
+
+/* src/App.css */
+
+/* ... outros estilos ... */
+
+.text-gradient-florize {
+   /* Define o gradiente de fundo */
+   background-image: linear-gradient(to right, #ed4599, #7d08eb); 
+   
+   /* Recorta o fundo para que apareça apenas no texto */
+   -webkit-background-clip: text;
+   background-clip: text;
+   
+   /* Torna a cor do texto transparente para que o gradiente de fundo seja visível */
+   -webkit-text-fill-color: transparent;
+   color: transparent; /* Fallback para navegadores mais antigos */
+ }
+
+
