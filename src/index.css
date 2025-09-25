@@ -1,39 +1,82 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+
+body {
+  background-color: whitesmoke;
+  height: 5300px;
+}
+.navheader{
+  @apply text-[14px] font-semibold cursor-context-menu font-sans tracking-[2px]  hover:text-blue-200 transition duration-300 flex
+}
+.Hr{
+  @apply w-px h-3 bg-gray-400 
+}
+.bntRedes{
+  @apply px-2 mx-1 w-10 h-8 rounded-2xl
+}
+.sobra-header{
+    box-shadow:0 1px 2px gray;
+}
+
+.heroImg,
+.celebrateImg, .card-gralha1, .img-grelha1,.img-grelha2, .img-grelha3 , .img-grelha4 , .img-grelha5 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.heroImg {
+  background-image: url(img-heropg.jpg);
+}
+.celebrateImg {
+  background-image: url(img-celebrate.jpg);
+}
+
+.card-gralha1{
+  background-image: url(Grelha.jpg);
+}
+.img-grelha1{
+  background-image: url(img-grelha1.jpg);
+}
+.img-grelha2{
+  background-image: url(img-grelha2.jpg);
+}
+.img-grelha3{
+  background-image: url(img-grelha3.jpg);
+}
+.img-grelha4{
+  background-image: url(img-grelha4.jpg);
+}
+.img-grelha5{
+  background-image: url(img-grelha5.jpg);
+}
 
 
-body{
-   background-color: rgb(181, 216, 216);
-   height: 5300px;
-   
-}
-.heroImg{
-    background-image: url(hero-img8.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    
-}
-.tema{
-   background-color: bg-pink-600;
-   
-}
 
 /* src/App.css */
 
 /* ... outros estilos ... */
 
 .text-gradient-florize {
-   /* Define o gradiente de fundo */
-   background-image: linear-gradient(to right, #ed4599, #7d08eb); 
-   
-   /* Recorta o fundo para que apareça apenas no texto */
-   -webkit-background-clip: text;
-   background-clip: text;
-   
-   /* Torna a cor do texto transparente para que o gradiente de fundo seja visível */
-   -webkit-text-fill-color: transparent;
-   color: transparent; /* Fallback para navegadores mais antigos */
- }
+  /* Define o gradiente de fundo */
+  background-image: linear-gradient(to right, rgb(223, 150, 220), rgb(155, 4, 255));
+  /* Recorta o fundo para que apareça apenas no texto */
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* Torna a cor do texto transparente para que o gradiente de fundo seja visível */
+  -webkit-text-fill-color: transparent;
+  color: transparent; /* Fallback para navegadores mais antigos */
+}
 
+.sombra-card {
+  box-shadow: 0 2px 8px black;
+}
+.sombra-grelha {
+  box-shadow: 1px 3px 3px black;
+}
 
+.bnt {
+  @apply bg-gradient-to-r from-pink-400 to-violet-600  hover:bg-pink-700 transition duration-300;
+}
+.heropg-bnt{
+  @apply  hover:bg-pink-700 transition duration-300 mt-8 px-6 py-2 bg-pink-600 text-white font-bold rounded-full  mr-4
+} 

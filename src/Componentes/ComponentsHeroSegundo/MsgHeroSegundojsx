@@ -1,0 +1,15 @@
+import React from 'react'
+
+const MsgHeroSegundo = () => {
+
+    return (
+        <div>
+            Florize Onde a Beleza Floresce e as Emoções Ganham Vida.
+       
+            "Na Florize, cada buquê é uma obra de arte cuidadosamente elaborada para expressar o que as palavras nem sempre conseguem. Da seleção das flores mais frescas à criação de arranjos únicos, dedicamo-nos a transformar seus sentimentos em presentes memoráveis. Celebre a vida, o amor e todos os seus momentos especiais com a delicadeza e a paixão que só a Florize oferece."
+        </div>
+    )
+
+}
+
+export default MsgHeroSegundo 
